@@ -1,0 +1,95 @@
+body{
+        width : 100%;
+        margin: 0;
+        padding: 0;
+       
+}
+body img{
+    width : 100%;
+    height: 100vh;
+    display: grid; 
+}
+
+main div{
+    width: 370px;
+    height: 323px;
+    position: absolute;
+    top: 180px;
+    left: 650px;
+    text-align: center;
+  
+   padding: 40px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+
+}
+h2{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: -20px;
+    left: 140px;
+    text-shadow: 0.1em 0.1em #000000
+}
+#opa{
+    width: 360px;
+   height: 10px; 
+   top: 130px;
+   left: 30px;
+   padding: 13px; 
+   background-color: rgba(0, 0, 0, 0.189);
+}
+h5{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 87px;
+    left: 34px;
+    text-shadow: 0.1em 0.1em #000000     
+}
+#senha{
+    width: 360px;
+    height: 10px; 
+    top: 235px;
+    left: 30px;
+    padding: 13px; 
+    background-color: rgba(0, 0, 0, 0.298); 
+}
+h4{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 191px;
+    left: 33px;
+    text-shadow: 0.1em 0.1em #000000    
+}
+button{
+    width: 385px;
+   height: 44px;
+    position: absolute;
+    top: 330px;
+    left: 30px;
+    background: linear-gradient(rgba(255, 2, 204, 0.402) , rgba(3, 250, 242, 0.434))  ;
+    text-align: center; 
+    color: rgba(0, 0, 0, 0.609);
+    font-family: "Tilt Warp", sans-serif;
+    font-size: 18px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out 100ms;
+}
+button:hover{
+    color: aliceblue;
+   }
+ input{
+    width: 360px;
+    
+    height: 10px; 
+    position: absolute;
+    top: 135px;
+    left: 30px;
+    padding: 13px; 
+    background-color: rgba(0, 0, 0, 0.044);
+   }
+    #senha{
+        background-color: rgba(0, 0, 0, 0.044);
+        
+   }
