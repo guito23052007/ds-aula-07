@@ -98,4 +98,8 @@ button:hover{
   }
   h1{
    color: rgb(7, 139, 255);
+   position: absolute;
+   top: 110px;
+   left: 360px;
+   font-size: 40px;
   }
